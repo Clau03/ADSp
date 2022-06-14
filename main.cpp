@@ -117,9 +117,6 @@ public:
                 case '/':
                     result = left / right;
                     break;
-                default:
-                    result = left + right;
-                    break;
             }
             return result;
         }
