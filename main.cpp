@@ -87,14 +87,6 @@ public:
 
     void create(std::string eqn){
         for (int i = eqn.length() - 1; i >= 0; i--) {
-
-//            if(strtok (eqn," ") && isDigit(eqn[i-1])){
-//            int p=1;
-//            while ( isDigit(eqn[i-1])) {
-//                insert(eqn[i]+(eqn[i-1])*10);
-//                i--;
-//            }
-//            else
                 insert(eqn[i]);
 
         }
